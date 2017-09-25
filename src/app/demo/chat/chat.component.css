@@ -1,0 +1,9 @@
+.clientMessage{
+    text-align: left;
+    background: lightblue;
+}
+
+.serverMessage {
+    text-align: right;
+    background: lightgreen;
+}

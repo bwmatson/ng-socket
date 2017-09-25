@@ -1,0 +1,18 @@
+<div>
+  <div align="center">
+    <div>
+      Name: 
+      <input type="text" [(ngModel)]="message.sender"/>
+    </div>
+    <div>
+      Message:
+      <input type="text" [(ngModel)]="message.body"/>
+    </div>
+    <button (click) = "send($event)">Send</button>
+  <div>
+  <div *ngFor="let message of messageList">
+    <div [class]=message.class>
+      {{message.text}}
+    </div>
+  </div>   
+</div>
